@@ -1,0 +1,5 @@
+/**
+ * && And
+ * || OR
+ * !  Not Reverse
+ */

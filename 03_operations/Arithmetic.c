@@ -1,0 +1,11 @@
+/**
+ * +
+ * -
+ * *
+ * /
+ * % //returns remainder
+ * 
+ * ++ increament 
+ * -- decrement
+ *
+ */
