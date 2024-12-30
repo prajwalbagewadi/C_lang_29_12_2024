@@ -32,10 +32,74 @@
 //variables
 
 //constant 
-#include<stdio.h>
-#define MAX 100
-int main(){
-    const float PI = 3.142;
-    return 0;
+// #include<stdio.h>
+// #define MAX 100
+// int main(){
+//     const float PI = 3.142;
+//     return 0;
 
+// }
+
+#include<stdio.h>
+int main(){
+    //int
+    //syntax:
+
+    //datatype var_name = value;
+        int a=10;
+        printf("a=%d\n",a);
+        a=20;
+        printf("a=%d\n",a);
+        printf("a=%d\n",a);
+
+    //float
+        float bal=25000.50;
+        printf("bal=%f\n",bal);
+
+    //char
+        char c='#';
+        printf("c=%c\n",c);
+    
+    //double
+        double d=23.455555555555;
+        printf("d=%lf\n",d);
+
+
+    //short int
+        short int si=256;//byte size difference
+        printf("si=%hd\n",si);
+
+    //unsigned int
+        unsigned int ui=23;
+        printf("ui=%u\n",ui);
+
+    //long int
+        long int longi=1234567;
+        printf("longi=%ld\n",longi);
+
+    //long long int
+        long long int llint=9823233434;
+        printf("llint=%lld\n",llint);
+
+    //unsigned long int
+        unsigned long int uli=8888888;
+        printf("uli=%lu\n",uli);
+
+    //unsigned long long int
+        unsigned long long int ulli=8888888;
+        printf("ulli=%llu\n",ulli);
+    
+    //signed char
+        // similar to char
+    
+    //unsigned char
+        unsigned char c1='^'; //for new languages
+        printf("n=%c\n",c1);
+    
+    //long double
+        long double var=3.141592653589793238L;
+        printf("var=%Lf\n",var);
+        long double pi = 3.141592653589793238L;
+        printf("The value of pi is: %Lf\n", pi);
+    return 0;
 }
