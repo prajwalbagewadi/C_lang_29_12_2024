@@ -97,9 +97,18 @@ int main(){
         printf("n=%c\n",c1);
     
     //long double
-        long double var=3.141592653589793238L;
-        printf("var=%Lf\n",var);
-        long double pi = 3.141592653589793238L;
-        printf("The value of pi is: %Lf\n", pi);
+        // long double var=3.141592653589793238L;
+        // printf("var=%Lf\n",var);
+        long double PI=3.141592653589793238L;
+        printf("The value of PI is: %.18Lf\n", PI);
+        /**
+         * Key Observations:
+         * long double Precision Issue:
+         * On some systems, especially 32-bit architectures or specific compilers (e.g., GCC on Windows using MinGW), long double may not offer higher precision than double. Instead, it is internally treated as a double, leading to potential truncation or incorrect output.
+         * Incorrect Formatting:
+         * You are using %Lf, which is correct for long double. If the compiler doesn't properly handle long double, this will still print incorrect or truncated values.
+         * Compiler or Runtime Compatibility:
+         * The issue might also stem from compiler-specific handling of long double. For example, the GCC compiler on some platforms doesn't fully support long double with extended precision.
+         */
     return 0;
 }
