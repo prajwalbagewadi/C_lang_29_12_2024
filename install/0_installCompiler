@@ -3,6 +3,9 @@ for vscode:
 visit:
 https://www.mingw-w64.org
 
+documentation :
+https://code.visualstudio.com/docs/cpp/config-mingw
+
 download:
 https://www.mingw-w64.org/downloads/#mingw-w64-builds
 
