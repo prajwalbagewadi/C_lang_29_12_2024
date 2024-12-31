@@ -41,6 +41,7 @@
 // }
 
 #include<stdio.h>
+#include<stdbool.h>
 int main(){
     //int
     //syntax:
@@ -101,5 +102,11 @@ int main(){
         printf("var=%Lf\n",var);
         long double pi = 3.141592653589793238L;
         printf("The value of pi is: %Lf\n", pi);
+
+    //boolean datatype
+        bool hasEmail=false;
+        printf("hasEmail=%d\n",hasEmail);
+        hasEmail=true;
+        ("hasEmail=%d\n",hasEmail);
     return 0;
 }
