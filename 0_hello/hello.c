@@ -29,11 +29,17 @@
  */
 
 
-#include<stdio.h> //preprocessor directive to include stdio.h file
+// #include<stdio.h> //preprocessor directive to include stdio.h file
 
-//return-type func_name
-int main(){ // main start point of the program
-    //output instruction
+// //return-type func_name
+// int main(){ // main start point of the program
+//     //output instruction
+//     printf("hello world");
+//     return 0;
+// }
+
+#include<stdio.h>
+int main(){
     printf("hello world");
     return 0;
 }
