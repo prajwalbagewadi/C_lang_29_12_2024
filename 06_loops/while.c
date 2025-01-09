@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 int main(){
-    int itr=1; // ilterator
+    int itr=11; // ilterator
     // assigning val to ilterator is called initilization
 
     while(itr<10){ // stoping condition
