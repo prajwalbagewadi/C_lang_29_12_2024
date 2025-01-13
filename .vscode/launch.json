@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Admin/Desktop/FSJ(7-10)/C_lang_29_12_2024/0_hello",
-      "program": "c:/Users/Admin/Desktop/FSJ(7-10)/C_lang_29_12_2024/0_hello/build/Debug/outDebug",
+      "cwd": "c:/Users/Admin/Desktop/FSJ(7-10)/C_lang_29_12_2024/07_arrays",
+      "program": "c:/Users/Admin/Desktop/FSJ(7-10)/C_lang_29_12_2024/07_arrays/build/Release/outRelease",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
