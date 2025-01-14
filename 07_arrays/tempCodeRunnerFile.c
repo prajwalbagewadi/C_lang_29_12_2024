@@ -1,1 +1,2 @@
-nums[3]=4;
+
+               printf("element found->%d ",mat2[i][j]);

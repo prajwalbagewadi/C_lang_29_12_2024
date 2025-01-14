@@ -33,5 +33,29 @@ int main(){
         }
         printf("\n"); //create a newline after each row
     }
+
+    //linear search
+    int key,flag=0;
+    printf("enter element to search in 2d array:");
+    scanf("%d",&key);
+     for(int i=0;i<rs;i++){
+        for(int j=0;j<cs;j++){
+            
+             if(key==mat2[i][j]){
+               printf("element found->at index mat2[%d][%d]",i,j);
+               flag=1; 
+            }
+            // if(key==mat2[i][j]){
+            //    printf("element found->%d ",mat2[i][j]);
+            //    flag=1; 
+            // }else {
+            //    printf("%d ",mat2[i][j]);
+            // }
+        }
+        printf("\n"); //create a newline after each row
+    }
+    if(flag==0){
+        printf("Element not found anywhere.");
+    }
     return 0;
 }
