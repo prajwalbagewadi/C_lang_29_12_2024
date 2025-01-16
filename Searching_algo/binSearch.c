@@ -4,6 +4,7 @@ int main(){
     //int arr[5]={9,54,18,17,1};
     //sort;
     int arr[5]={1,9,17,18,54};
+    
 
     int key=0;
     int size=5;
