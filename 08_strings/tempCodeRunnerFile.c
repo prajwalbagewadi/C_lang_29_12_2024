@@ -1,2 +1,1 @@
- strcpy(dest,src);
-    printf("dest=%s\n",dest)
+printf("%c",(src5[i]-32));
