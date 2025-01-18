@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    syntax         (arrayofChars)  
-    char-datatype str_name[size] = val; 
+    //syntax         (arrayofChars)  
+    //char-datatype str_name[size] = val; 
     char str_name[5]="hello";
     char str_name2[5]={'h','e','l','l','o'};
     printf("str_name=%s\n",str_name);
@@ -30,7 +30,7 @@ int main(){
     }
     printf("\n");
 
-    strlen() :returns the length of string
+    //strlen() :returns the length of string
     char stri[100]="UniPune offers a 2 years Master of Computer Applications (MCA) course at the PG level. To get";
     printf("len of str=%d\n",strlen("returns the length of string name."));
     printf("\n");
