@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
+/*
     //syntax         (arrayofChars)  
     //char-datatype str_name[size] = val; 
     char str_name[5]="hello";
@@ -142,5 +143,26 @@ int main(){
  
     }   
     printf("without strupr()=%s\n",src6); 
+*/
+    //strcmp()
+    char src7[100]="apple";
+    char dest7[100]="apple2";
+    printf("with strcmp():%d\n",strcmp(src7,dest7));
+
+    //without strcmp()
+    int val=-1;
+    for(int i=0;i<100;i++){
+        if(src7[i]==dest7[i]){
+            val=0;
+        }else{
+            val=-1;
+        }
+    
+    }
+    if(val=0){
+        printf("Strings are Equals.\n");
+    }else {
+        printf("Strings are not Equals.\n");
+    }
     return 0;
 }
