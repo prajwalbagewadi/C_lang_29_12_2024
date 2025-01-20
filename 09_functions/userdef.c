@@ -5,6 +5,7 @@
 void Greet(); //function header
 void addition();
 void add(int x,int y);
+int  areaOfCircle(int r);
 
 int main(){
     //syntax:
@@ -16,6 +17,9 @@ int main(){
     printf("b=%d\n",b);
     add(a,b);//actual parameters
     add(50,50);
+    int radius=5;
+    int result=areaOfCircle(radius);
+    printf("areaofcircle=%d\n",result);
     return 0;
 }
 
@@ -35,4 +39,7 @@ void addition(){
 }
 void add(int x,int y){//formal parameters
     printf("add=%d\n",(x+y));
+}
+int  areaOfCircle(int r){
+    return 3.142*r*r;
 }
