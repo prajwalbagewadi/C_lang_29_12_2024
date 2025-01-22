@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int add(int a,int b){
+int prajwal(int a,int b){
     printf("in add()=%d\n",(a+b));
     return a+b;
 }
@@ -43,7 +43,7 @@ int main(){
 
 
     //function ptr(ptr to function)
-    int (*fptr)(int,int)=&add;
+    int (*fptr)(int,int)=&prajwal;
     int result=fptr(3,3);
     printf("result=%d\n",result);
     return 0;
