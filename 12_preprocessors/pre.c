@@ -39,7 +39,7 @@
 //#error "error by user"
 
 //#line: Used to modify line number and filename information.
-#line 34 "pre.c"
+//#line 34 "pre.c"
 
 
 
