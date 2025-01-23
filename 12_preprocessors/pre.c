@@ -39,7 +39,9 @@
 //#error "error by user"
 
 //#line: Used to modify line number and filename information.
-//#line 34 "pre.c"
+// #define PrintLine
+//     printf("%d %s\n",__LINE__,__FILE__)
+#line 34 "pre.c"
 
 
 
@@ -54,6 +56,11 @@ int main(){
     printf("MAX=%d\n",MAX);
     //#error "error by user";
     printf("msg=%s\n",msg);
-    // #__TIME__:now();
+    // #__TIME__:now()
+    
+    printf("line=%d\n",__LINE__);
+    printf("time=%s\n",__TIME__);
+    printf("file=%s\n",__FILE__);
+    printf("Date=%s\n",__DATE__);
     return 0;
 }
