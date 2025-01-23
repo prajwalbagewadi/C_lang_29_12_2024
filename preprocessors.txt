@@ -1,7 +1,8 @@
-
+What are Preprocessor directives : 
+    instructions / keywords processed in compiler before code lines/code.
 
 #define
-Used to define a macro.
+Used to define a macro. (macro:shortcut task)
 #define PI 3.14159
 
 #undef
