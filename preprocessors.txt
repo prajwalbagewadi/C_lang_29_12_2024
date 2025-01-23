@@ -1,0 +1,56 @@
+
+
+#define
+Used to define a macro.
+#define PI 3.14159
+
+#undef
+Used to undefine a macro.
+#undef macro_name
+
+#include
+Used to include a file in the source code program.
+#include <file_name>
+
+
+#ifdef
+Used to include a section of code if a certain macro is defined by #define.
+#ifdef MACRO
+    controlled text
+#endif
+
+#ifndef
+Used to include a section of code if a certain macro is not defined by #define.
+ifndef macro_name
+    statement1;
+    statement2;
+    statement3;
+    .
+    .
+    .
+    statementN;
+endif
+
+#if
+Check for the specified condition.
+
+#else
+Alternate code that executes when #if fails.
+
+#endif
+Used to mark the end of #if, #ifdef, and #ifndef.
+#if macro_condition
+   statements
+#elif macro_condition
+   statements
+#else
+   statements
+#endif
+
+#error
+Used to generate a compilation error message.
+
+#line
+Used to modify line number and filename information.
+#line number "filename"
+
