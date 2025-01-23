@@ -46,5 +46,6 @@ int main(){
     int (*fptr)(int,int)=&prajwal;
     int result=fptr(3,3);
     printf("result=%d\n",result);
+
     return 0;
 }
