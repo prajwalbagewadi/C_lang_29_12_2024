@@ -60,7 +60,13 @@ int main(){
     
     printf("line=%d\n",__LINE__);
     printf("time=%s\n",__TIME__);
-    printf("file=%s\n",__FILE__);
+    printf("file=%s\n",__FILE__);-
     printf("Date=%s\n",__DATE__);
+
+    #define rate 9.36
+    #define time 5
+    #define num 5
+    int P=1000;
+    printf("compound interest=%f",(P*(1+(rate/num))*num*time));
     return 0;
 }
