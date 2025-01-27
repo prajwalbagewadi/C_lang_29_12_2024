@@ -6,6 +6,9 @@ int main(){
         printf("processing do_while loop\n");
         printf("%d\n",i);
         i++;
+
+
+        
     }while(i<=10);
 
     int selector;
